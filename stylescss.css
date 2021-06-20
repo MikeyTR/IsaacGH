@@ -1,14 +1,16 @@
-*{margin: 0; padding:0;}
+*{margin: 0; padding:0; font-family: upheavtt;}
 
 body {
-    background:#000000;
+    background:#3b4a69;
 }
 
 header {
     width:100%;
     overflow:visible ;
-    background: #252932;
+    background: #222b3c;
     margin-bottom: 20px;
+    text-decoration: overline;
+    text-shadow: 4px 4px 5px rgb(0, 0, 0);
 }
 
 .wrapper {
@@ -19,11 +21,25 @@ header {
 }
 
 header .logo {
-    color:rgb(204, 9, 9);
-    font-size: 50px;
-    line-height: 200px;
+    letter-spacing: 4px;
+    color:#3b5b63;
+    font-size: 30px;
+    line-height: 200px; 
+    text-shadow: 5px 5px 5px black;
+}
+header img {
+    position: inherit;
     float: left;
-    
+    margin-top: 70px;
+    margin-left: 90px;
+}
+header h1 {
+    float: left;
+    margin-top: 0px;
+    padding: 0px;
+    height: 100px;
+    width: 200px;
+    font-size: 50px;
 }
 
 header nav {
@@ -33,7 +49,7 @@ header nav {
 
 header nav a {
     display: inline-block;
-    color: white;
+    color: #3b5b63;
     text-decoration: none;
     padding: 10px 20px;
     line-height: normal;
@@ -55,10 +71,15 @@ header nav a:hover {
     height: 100px;
 }
 
+.header2 img {
+    line-height: 100px;
+}
+
 .header2 .logo{
     line-height: 100px;
     font-size: 30px;
 }
+
 
 .header2 nav {
     line-height: 100px;
@@ -104,4 +125,9 @@ footer{
     .header2 nav {
         line-height: 50px;
     }
+}
+
+@font-face {
+    font-family: upheavtt;
+    src: url(upheavtt.ttf);
 }

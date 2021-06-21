@@ -1,0 +1,111 @@
+@font-face {font-family: upheavtt;   src: url(upheavtt.ttf);}
+*{  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+li, a, button{
+    font-family: upheavtt;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color:#545e81;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: #3a4a69;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+}
+
+button:hover {
+    background-color: #222b3c;
+}
+
+body .main .itemtype h1 {
+    background: #3b4a69;
+    margin-right: 360px;
+    text-align: center;
+    font-family: upheavtt;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #420807;
+}
+
+section h1 p{
+    background: #3b4a69;
+    margin-right: 360px;
+ 
+    text-align: center;
+    font-family: upheavtt;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #420807;
+}
+
+section p{
+    background: #3b4a69;
+    margin-right: 360px;
+
+    text-align: center;
+    font-family: upheavtt;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #420807;
+    margin-top: 10px;
+}
+
+section ul li {
+    background: #343434;
+    margin-right: 360px;
+    text-align:start;
+    font-family: upheavtt;
+}
+
+section ul li a{
+    background: #343434;
+    margin-right: 360px;
+    text-align:start;
+    font-family: upheavtt;
+}
+
+footer a{
+    background: #343434;
+}
+
+footer {
+    background: #343434;
+    margin-right: 360px;
+}

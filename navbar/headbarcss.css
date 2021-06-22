@@ -20,6 +20,11 @@ header{
     justify-content: flex-end;
     align-items: center;
     padding: 10px;
+    z-index: 9001;
+    -moz-box-shadow: 1px 3px 4px 0 rgba(0,0,0,.4);
+    -webkit-box-shadow: 1px 3px 4px 0 rgb(0 0 0 / 40%);
+    box-shadow: 3px 3px 4px 0 rgb(0 0 0 / 40%);
+    margin-bottom: 10px;
 }
 
 .logo {
@@ -60,42 +65,35 @@ button:hover {
 
 .main {
     display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-
-    background-color: #202020;
-    display: inline-block;
+    background-color: black;
+    
 }
 
-.main .itemsK {
-
-    background-color: #343434;
-    display: inline-block;
+.main .items {
+    background-color: white;
+    
+    width: 70%;
+    height: 100%;
+    align-content: space-around;
 }
 
-.main .itemsD {
-
-    background-color: #343434;
-    display: inline-block;
-}
-.main .itemsA {
-;
-    background-color: #343434;
+.main .descript {
+    background-color:#24252A;
+    
+    width: 30%;
+    height: 100%;
 }
 
-.main .itemsC {
-    background-color: #343434;
+footer {
+    height: 200px;
+    text-align: center;
 }
 
-.main .itemsC .Footer {
-    background-color: #343434;
-    align-items: flex-end;
+footer h1{
+    background-color: 24252A;
+    border-top: 1px solid white;
+    margin-left: 10px;
+    margin-right: 10px;
 }
-
-.main footer {
-    background-color: black;    
-}
-
-
 
 

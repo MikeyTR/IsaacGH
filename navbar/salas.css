@@ -1,0 +1,18 @@
+@font-face {font-family: upheavtt;   src: url(upheavtt.ttf);}
+*{font-family: upheavtt; padding: 0px; margin: 0px;box-sizing: border-box;}
+
+.tittle {
+    background-color: #3a4a69;
+    text-align: center;
+    height: 35px;
+    color: #6f7fac;
+    text-shadow: 5px 5px 5px black;
+}
+
+.itm {
+    background-color: #343434;
+}
+
+.itm img{
+    background-color: #343434;
+}

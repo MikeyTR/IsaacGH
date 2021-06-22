@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     background-color: #24252A;
+    font-family: upheavtt;
 }
 
 li, a, button{
@@ -61,34 +62,40 @@ button:hover {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
+
+    background-color: #202020;
+    display: inline-block;
 }
 
-.itemsK {
-    background-color: blue;
-    width: 200px;
-    height: 200px;
+.main .itemsK {
+
+    background-color: #343434;
+    display: inline-block;
 }
 
-.itemsA {
-    background-color: rgb(241, 0, 241);
-    width: 200px;
-    height: 200px;
+.main .itemsD {
+
+    background-color: #343434;
+    display: inline-block;
+}
+.main .itemsA {
+;
+    background-color: #343434;
 }
 
-.itemsD {
-    background-color: rgb(0, 255, 0);
-    width: 200px;
-    height: 200px;
+.main .itemsC {
+    background-color: #343434;
 }
 
-.itemsC {
-    background-color: rgb(2, 230, 247);
-    width: 200px;
-    height: 200px;
+.main .itemsC .Footer {
+    background-color: #343434;
+    align-items: flex-end;
 }
 
-.description {
-    background-color: rgb(208, 253, 5);
-    width: 200px;
-    height: 200px;
+.main footer {
+    background-color: black;    
 }
+
+
+
+

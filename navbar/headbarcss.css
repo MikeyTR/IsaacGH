@@ -57,55 +57,38 @@ button:hover {
     background-color: #222b3c;
 }
 
-body .main .itemtype h1 {
-    background: #3b4a69;
-    margin-right: 360px;
-    text-align: center;
-    font-family: upheavtt;
-    color: #ffffff;
-    text-shadow: 2px 2px 2px #420807;
+.main {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
-section h1 p{
-    background: #3b4a69;
-    margin-right: 360px;
- 
-    text-align: center;
-    font-family: upheavtt;
-    color: #ffffff;
-    text-shadow: 2px 2px 2px #420807;
+.itemsK {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
 }
 
-section p{
-    background: #3b4a69;
-    margin-right: 360px;
-
-    text-align: center;
-    font-family: upheavtt;
-    color: #ffffff;
-    text-shadow: 2px 2px 2px #420807;
-    margin-top: 10px;
+.itemsA {
+    background-color: rgb(241, 0, 241);
+    width: 200px;
+    height: 200px;
 }
 
-section ul li {
-    background: #343434;
-    margin-right: 360px;
-    text-align:start;
-    font-family: upheavtt;
+.itemsD {
+    background-color: rgb(0, 255, 0);
+    width: 200px;
+    height: 200px;
 }
 
-section ul li a{
-    background: #343434;
-    margin-right: 360px;
-    text-align:start;
-    font-family: upheavtt;
+.itemsC {
+    background-color: rgb(2, 230, 247);
+    width: 200px;
+    height: 200px;
 }
 
-footer a{
-    background: #343434;
-}
-
-footer {
-    background: #343434;
-    margin-right: 360px;
+.description {
+    background-color: rgb(208, 253, 5);
+    width: 200px;
+    height: 200px;
 }

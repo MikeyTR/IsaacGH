@@ -1,0 +1,86 @@
+@font-face {font-family: upheavtt;   src: url(upheavtt.ttf);}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(wallpaperflare.com_wallpaper.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.buscar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #24252ab9;
+    padding: 10px;
+    width: 800px;
+    height: 80px;
+    border-radius: 40px;
+}
+
+.buscar:hover {
+    background: #24252A;
+}
+
+.buscar_texto {
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    float: left;
+    line-height: 60px;
+    transition: .3s;
+    width: 0;
+}
+
+.boton {
+    width: 40px;
+    height: 60px;
+    text-decoration: none;
+    color: rgb(90, 102, 209);
+    font-size: 40px;
+    background: #24252a00;
+}
+
+.icon-buscar {
+    background: #24252a00;
+}
+
+.boton i a {
+    font-size: 30px;
+    background: red;
+}
+
+.lupa {
+    background: none;
+
+}
+
+/*==?==========RESPONSIVE========*/
+
+@media screen and (min-width:400px) {
+    .buscar:hover > .buscar_texto {
+        width: 190px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .buscar:hover > .buscar_texto {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .buscar:hover > .buscar_texto {
+        width: 500px;
+    }
+}
